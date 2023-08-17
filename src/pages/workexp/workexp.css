@@ -1,0 +1,47 @@
+.work {
+  margin-left: 120px;
+  background-color: #a9a9a930;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  transition: 0.4s ease;
+}
+
+.work-exp {
+  padding: 60px 0;
+}
+
+.work-exp h2 {
+  font-weight: bold;
+  color: #ff0090;
+  font-family: "Brush Signature";
+}
+
+.work-exp hr {
+  color: #ff0090;
+  width: 400px;
+  margin: 10px auto;
+}
+
+.work-exp .vertical-timeline-element-title {
+  color: #ff0090;
+}
+
+.work-exp p {
+  color: #656565;
+}
+
+/* Media Query */
+
+@media (max-width: 600px) {
+  .work {
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+  }
+
+  .work hr {
+    width: 280px;
+  }
+}

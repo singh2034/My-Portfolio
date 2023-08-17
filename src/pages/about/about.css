@@ -1,0 +1,53 @@
+.about {
+  margin: 30px 0;
+  padding: 20px;
+  margin-left: 200px;
+}
+
+.about-img img {
+  border-radius: 10px;
+  height: 400px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.about-content {
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.about-content h2 {
+  color: #ff0090;
+  font-family: "Brush Signature";
+  border-bottom: 2px solid gray;
+  text-align: center;
+}
+
+.about-content p {
+  text-align: justify;
+  padding: 20px;
+}
+
+/* dark mode */
+
+#dark .about {
+  background-color: rgba (0, 0, 0, 0.15);
+}
+
+/* media Query */
+
+@media (max-width: 600px) {
+  .about {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .about h2 {
+    margin-top: 50px;
+  }
+}

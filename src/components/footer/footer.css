@@ -1,0 +1,47 @@
+.footer {
+  margin-top: 40px;
+  padding: 30px;
+  background-color: #000;
+}
+
+.footer h3 {
+  color: #fff;
+  font-family: "Brush Signature";
+  margin-left: 250px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 23px;
+}
+
+.footer .linkedin:hover {
+  color: #2832c2;
+}
+
+.footer .whatsapp:hover {
+  color: #50c878;
+}
+
+.footer .instagram:hover {
+  color: #ff0090;
+}
+
+/* media query */
+
+@media (max-width: 600px) {
+  .footer {
+    padding: 0;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .footer h3 {
+    padding: 0;
+    margin-top: 30px;
+    margin-left: 0;
+    padding-bottom: 10px;
+  }
+}

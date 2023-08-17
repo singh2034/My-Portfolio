@@ -1,0 +1,50 @@
+.education {
+  margin: 50px 0;
+  padding: 100px 0;
+  margin-left: 130px;
+  background-color: #a9a9a930;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.education:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  transition: 0.5s ease;
+}
+
+.education hr {
+  color: #ff0090;
+  width: 400px;
+  margin: 10px auto;
+}
+
+.education h2 {
+  font-weight: bold;
+  color: #ff0090;
+  font-family: "Brush Signature";
+}
+
+.education .vertical-timeline-element-title {
+  color: #ff0090;
+}
+
+
+
+/* Media Query */
+
+@media (max-width: 600px) {
+  .education {
+    margin: 0; padding: 0;
+    margin-top: 40px;
+  }
+
+  .education h2 {
+    padding-top: 20px;
+  }
+
+  .education hr {
+    width: 280px;
+    margin-bottom: 10px;
+  }
+}
