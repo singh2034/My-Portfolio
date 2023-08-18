@@ -4,7 +4,12 @@ import Typewriter from "typewriter-effect";
 import Fade from "react-reveal/Fade";
 import { useTheme } from "../../context/ThemeContext";
 import Resume from "../../assets/docs/FSWD Resume.pdf";
-import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
+import {
+  BsFillMoonStarsFill,
+  BsFillSunFill,
+  BsFiletypePdf,
+} from "react-icons/bs";
+import { AiFillGithub } from "react-icons/ai";
 
 const Home = () => {
   const [theme, setTheme] = useTheme();
@@ -44,17 +49,18 @@ const Home = () => {
             <div className="home-buttons">
               <a
                 className="btn btn-hire"
-                href="https://api.whatsapp.com/send?phone=9958721272"
+                href="https://github.com/singh2034"
                 rel="noreferrer"
                 target="_blank"
               >
-                Hire Me
+                <AiFillGithub size={30} /> My GitHub
               </a>
               <a
                 href={Resume}
                 download="Aayush_Resume.pdf"
                 className="btn btn-cv"
               >
+                <BsFiletypePdf size={25} />
                 My Resume
               </a>
             </div>
